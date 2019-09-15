@@ -1,0 +1,26 @@
+{
+  "name": "hexo-native-lazy-load",
+  "version": "1.0.0",
+  "description": "add native lazy load to hexo page as well as optional fallback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengkx/hexo-native-lazy-load.git"
+  },
+  "keywords": [
+    "hexo",
+    "lazy-load"
+  ],
+  "author": "fengkx",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fengkx/hexo-native-lazy-load/issues"
+  },
+  "homepage": "https://github.com/fengkx/hexo-native-lazy-load#readme",
+  "dependencies": {
+    "hexo-log": "^0.2.0"
+  }
+}
