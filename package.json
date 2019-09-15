@@ -4,8 +4,13 @@
   "description": "add native lazy load to hexo page as well as optional fallback",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier \"**/*.{js,json,md}\" --write"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fengkx/hexo-native-lazy-load.git"

@@ -14,13 +14,15 @@ lazy_load: #native load
 ```
 
 The plugin only add attribute in post page by default. To add attribute in other page as well set `lazy_load.all` to true
+
 ```yaml
 lazy_load:
   enable: true
   all: true
-
 ```
+
 By default it will add fallback polyfill use lazysizes. It can be disable by setting `lazy_load.fallback` to false
+
 ```yaml
 lazy_load:
   enable: true
