@@ -6,7 +6,14 @@ For more infomation about native lazy load go ahead and see [here](https://web.d
 
 This plugin add lazy load attribute to img tag.
 
-To use the plugin add following setting to the site config file. That mean the `_config,yml` in root directory.
+## Installation
+
+```bash
+npm install hexo-native-lazy-load --save
+```
+## Usage
+
+Add following setting to the site config file. That mean the `_config,yml` in root directory.
 
 ```yaml
 lazy_load: #native load
