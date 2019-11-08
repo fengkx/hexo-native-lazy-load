@@ -22,9 +22,11 @@ lazy_load:
 ```
 
 By default it will add fallback polyfill use lazysizes. It can be disable by setting `lazy_load.fallback` to false
+It will also automatically add the width and height attribute to image tag when you are using `post_asset__folder` and put the image there. It can be disabled by setting `lazy_load.width_height` to false.
 
 ```yaml
 lazy_load:
   enable: true
   fallback: false
+  width_height: true
 ```

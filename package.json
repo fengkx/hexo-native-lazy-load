@@ -25,7 +25,9 @@
     "url": "https://github.com/fengkx/hexo-native-lazy-load/issues"
   },
   "homepage": "https://github.com/fengkx/hexo-native-lazy-load#readme",
-  "dependencies": {},
+  "dependencies": {
+    "image-size": "^0.8.3"
+  },
   "devDependencies": {
     "prettier": "^1.18.2"
   }
