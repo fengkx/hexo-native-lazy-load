@@ -3,7 +3,6 @@ const replace = require("./lib/replace");
 const addScript = require("./lib/add_lazysizes");
 const log = hexo.log;
 
-console.log(hexo.File);
 
 if (!hexo.config.lazy_load || !hexo.config.lazy_load.enable) {
   return;
