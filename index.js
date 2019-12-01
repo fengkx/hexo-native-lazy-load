@@ -3,7 +3,6 @@ const replace = require("./lib/replace");
 const addScript = require("./lib/add_lazysizes");
 const log = hexo.log;
 
-
 if (!hexo.config.lazy_load || !hexo.config.lazy_load.enable) {
   return;
 }
@@ -23,7 +22,10 @@ if (hexo.config.lazy_load.all) {
   hexo.extend.filter.register(
     "after_post_render",
     function(data) {
-      if (hexo.config.post_asset_folder === true && hexo.config.lazy_load.width_height !== false) {
+      if (
+        hexo.config.post_asset_folder === true &&
+        hexo.config.lazy_load.width_height !== false
+      ) {
         data.content = replace(
           data.content,
           path.join(
@@ -32,7 +34,7 @@ if (hexo.config.lazy_load.all) {
           )
         );
       }
-      data.content = replace(data.content);
+      data.content = replace(data.content, "");
       return data;
     },
     15
