@@ -2,7 +2,7 @@
 
 As is known, Chrome76 start to support native lazy load. And Firefox also has a open bug for this feature.
 
-For more infomation about native lazy load go ahead and see [here](https://web.dev/native-lazy-loading)
+For more information about native lazy load go ahead and see [here](https://web.dev/native-lazy-loading)
 
 This plugin add lazy load attribute to img tag.
 
